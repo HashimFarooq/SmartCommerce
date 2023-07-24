@@ -7,7 +7,7 @@
 		<groups>
 			<run>
 				<!--<include name="SCSmokeCreate"></include>-->
-				<include name="SC_Smoke2"></include>
+				<include name="SC_Smoke"></include>
 				<!--<include name="SC_SmartSite_Smoke1"></include>-->
 			</run>
 		</groups>
