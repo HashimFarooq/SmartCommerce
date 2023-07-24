@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmartCommerce Test Suite" parallel="none">
+	<test name="SmartCommerce Smoke Test Demo">
+		<!--<parameter name="browser" value="Chrome" />-->
+
+		<groups>
+			<run>
+				<!--<include name="SCSmokeCreate"></include>-->
+				<include name="SC_Smoke2"></include>
+				<!--<include name="SC_SmartSite_Smoke1"></include>-->
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.SmartCommerce.PageTests.Click2CartTest" />
+			<class name="com.SmartCommerce.PageTests.ShopperChoiceTest" />
+			<class name="com.SmartCommerce.PageTests.SmartSiteTest" />
+			<class name="com.SmartCommerce.PageTests.UsersTest" />
+			<!-- 	  <methods>
+		<exclude name="C2C_Click_On_Existing_URL" />
+			<exclude name="C2C_Verify_Existing_URLS" /> 
+        <exclude
+			name="C2C_Copy_URL" /> 
+        <exclude name="C2C_Delete_URL" />
+			<include name="C2C_EDIT_AND_SAVE" /> 
+ 	</methods>-->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

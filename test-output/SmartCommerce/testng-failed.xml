@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmartCommerce]">
+  <test thread-count="5" name="SCLoginTest(failed)">
+    <classes>
+      <class name="com.SmartCommerce.PageTests.Click2CartTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="C2C_EDIT_AND_SAVE"/>
+        </methods>
+      </class> <!-- com.SmartCommerce.PageTests.Click2CartTest -->
+    </classes>
+  </test> <!-- SCLoginTest(failed) -->
+</suite> <!-- Failed suite [SmartCommerce] -->
